@@ -1,0 +1,22 @@
+machines:
+  4y3h7s:  # maas-node04.maas
+    "juju-77d6fb-4-lxd-0.maas":
+      interfaces:
+        - mac_address: 00:16:3e:dc:98:f0
+          subnets:
+            - "fd37:eb0d:caae:ece8::/64"
+            - "192.168.51.0/24"
+        - mac_address: 
+          subnets:
+            - "fd37:eb0d:caae:ece8::/64"
+  4y3h7r:  # maas-node03.maas
+    juju-77d6fb-1-lxd-0.maas:
+      interfaces:
+        - mac_address: 00:16:3e:51:85:01
+          subnets:
+            - "fd37:eb0d:caae:ece8::/64"
+    juju-77d6fb-1-lxd-1.maas:
+      interfaces:
+        - mac_address: 00:16:3e:5a:9b:ce
+          subnets:
+          - "fd37:eb0d:caae:ece8::/64"
